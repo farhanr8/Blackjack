@@ -14,8 +14,8 @@ public class Blackjack {
 			do {
 				userReady = console.next().toUpperCase(); 
 				if(!userReady.equals("Y") && !userReady.equals("N")) {
-    			  System.out.print("Please enter Y or N:  ");
-      		  	}    
+    			  		System.out.print("Please enter Y or N:  ");
+      		  		}    
 			} while(!userReady.equals("Y") && !userReady.equals("N"));
     	  
 			if(userReady.equals("N")) {
@@ -68,39 +68,39 @@ public class Blackjack {
 		if(dealerHand.getHandSum() == 21) {
 			System.out.println("Your cards are:");
 			for(int i = 0; i < userHand.getCardCount(); i++) {
-              System.out.println(">> " + userHand.getCard(i));
+              			System.out.println(">> " + userHand.getCard(i));
 			}
 			System.out.println(">> Total = " + userHand.getHandSum());
-           	System.out.println();
+           		System.out.println();
            	
-           	System.out.println("Dealer's cards are:");
+           		System.out.println("Dealer's cards are:");
 			for(int i = 0; i < dealerHand.getCardCount(); i++) {
-              System.out.println(">> " + dealerHand.getCard(i));
+              			System.out.println(">> " + dealerHand.getCard(i));
 			}
 			System.out.println(">> Total = " + dealerHand.getHandSum());
-           	System.out.println();
+           		System.out.println();
 
-           	System.out.println("Dealer has Blackjack.  Dealer wins.");
-       		return false;
+           		System.out.println("Dealer has Blackjack.  Dealer wins.");
+       			return false;
 		}
       
 		if (userHand.getHandSum() == 21) {
 			System.out.println("Your cards are:");
 			for(int i = 0; i < userHand.getCardCount(); i++) {
-              System.out.println(">> " + userHand.getCard(i));
+              			System.out.println(">> " + userHand.getCard(i));
 			}
 			System.out.println(">> Total = " + userHand.getHandSum());
-           	System.out.println();
+           		System.out.println();
            	
-           	System.out.println("Dealer's cards are:");
+           		System.out.println("Dealer's cards are:");
 			for(int i = 0; i < dealerHand.getCardCount(); i++) {
-              System.out.println(">> " + dealerHand.getCard(i));
+              			System.out.println(">> " + dealerHand.getCard(i));
 			}
 			System.out.println(">> Total = " + dealerHand.getHandSum());
-           	System.out.println();
+           		System.out.println();
            	
-       		System.out.println("You have Blackjack.  You win.");
-           	return true;
+       			System.out.println("You have Blackjack.  You win.");
+           		return true;
 		}
 		
 		/* 
@@ -134,7 +134,7 @@ public class Blackjack {
 				userAction = console.next().toUpperCase(); 
 				if (!userAction.equals("H") && !userAction.equals("S")) {
 					System.out.print("Please enter H or S:  ");
-       		  	}    
+       		  		}    
 			} while(!userAction.equals("H") && !userAction.equals("S"));
 
 			// User Stands
@@ -185,10 +185,10 @@ public class Blackjack {
 		System.out.println("\nDealer stands.\n");
 		System.out.println("Dealer's cards are:");
 		for(int i = 0; i < dealerHand.getCardCount(); i++) {
-          System.out.println(">> " + dealerHand.getCard(i));
+          		System.out.println(">> " + dealerHand.getCard(i));
 		}
 		System.out.println(">> Total = " + dealerHand.getHandSum());
-       	System.out.println();
+       		System.out.println();
 
 		if(dealerHand.getHandSum() == userHand.getHandSum()) {
 			System.out.println("Tie game! Dealer wins, You lose.");
