@@ -1,3 +1,3 @@
-### What impact do you want to have on the world and why? Please limit your statement to 500 words maximum and provide your submission with a link.
+### What impact do you want to have on the world and why? 
 
-Answer
+Growing up in a third world country gave me unique perspectives to the needs of this world. There are so many issues throughout all kinds of societies that could be resolved through the proper technology. I want to use my passion for technology to assist the problems that humans face throughout the world. My main interest lies in developing real-time gadgets using my knowledge and skills of working with embedded software. I also enjoy developing high level applications, whether it be mobile or web. Wherever it is that I land at the end, I want my software to have a positive effect on this world and make life a little more easier and enjoyable.
